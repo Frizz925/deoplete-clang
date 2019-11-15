@@ -2,7 +2,7 @@
 
 || **Status** |
 |---|---|
-|**Ubuntu 14.04** |[![Build Status](https://travis-ci.org/zchee/deoplete-clang.svg?branch=master)](https://travis-ci.org/zchee/deoplete-clang)|
+|**Ubuntu 14.04** |[![Build Status](https://travis-ci.org/deoplete-plugins/deoplete-clang.svg?branch=master)](https://travis-ci.org/deoplete-plugins/deoplete-clang)|
 
 C/C++/Objective-C/Objective-C++ source for [deoplete.nvim](https://github.com/Shougo/deoplete.nvim)
 
@@ -88,13 +88,13 @@ You will need `cmake`, `ninja` or `Xcode`.
 ```vim
 " dein.vim (fastest)
 call dein#add('Shougo/deoplete.nvim')
-call dein#add('zchee/deoplete-clang')
+call dein#add('deoplete-plugins/deoplete-clang')
 " NeoBundle
 NeoBundle 'Shougo/deoplete.nvim'
-NeoBundle 'zchee/deoplete-clang'
+NeoBundle 'deoplete-plugins/deoplete-clang'
 " vim-plug
 Plug 'Shougo/deoplete.nvim'
-Plug 'zchee/deoplete-clang'
+Plug 'deoplete-plugins/deoplete-clang'
 ```
 
 ## Available Settings
